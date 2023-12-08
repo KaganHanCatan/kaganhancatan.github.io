@@ -1,714 +1,816 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kagan</title>
-    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="Css/style.css" />
-    <link rel="icon" type="image/x-icon" href="Assets/Icons/favicon.ico">
-  </head>
-  <body>
-    <!-- header  -->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav-logo">Kagan Han Catan</a>
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Kagan Han Catan</title>
+    <link href="Libraries/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="Css/style.css" rel="stylesheet"/>
+    <link href="Assets/Icons/favicon.ico" rel="icon" type="image/x-icon">
+</head>
+<body>
+<!-- header  -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a class="nav-logo" href="#">Kagan Han Catan</a>
 
         <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list grid">
-            <li class="nav-item">
-              <a href="#home" class="nav-link"
-                ><i class="fa-solid fa-house nav-icon"></i> Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link"
-                ><i class="fa-solid fa-user nav-icon"></i> About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link"
-                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link"
-                ><i class="fa-solid fa-briefcase nav-icon"></i> Services</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link"
-                ><i class="fa-solid fa-image nav-icon"></i> Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link"
-                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
-              >
-            </li>
-          </ul>
-          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+            <ul class="nav-list grid">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home"
+                    ><i class="fa-solid fa-house nav-icon"></i> Home</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"
+                    ><i class="fa-solid fa-user nav-icon"></i> About</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"
+                    ><i class="fa-solid fa-file nav-icon"></i> Skills</a
+                    >
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"
+                    ><i class="fa-solid fa-image nav-icon"></i> Projects</a
+                    >
+                </li>
+
+<!--                <li class="nav-item">
+                    <a class="nav-link" href="#services"
+                    ><i class="fa-solid fa-briefcase nav-icon"></i> Services</a
+                    >
+                </li>-->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"
+                    ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+                    >
+                </li>
+            </ul>
+            <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
         </div>
 
         <div class="nav-btns">
-          <!-- theme btn  -->
-          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+            <!-- theme btn  -->
+            <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
 
-          <div class="nav-toggle" id="nav-toggle">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main class="main">
-      <section class="home section" id="home">
-        <div class="home-container container grid">
-          <div class="home-content grid">
-            <div class="home-social">
-              <a
-                href="https://www.linkedin.com/in/kaganhancatan/"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://www.kaggle.com/kagancatan"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fab fa-kaggle"></i>
-              </a>
-              <a
-                href="https://github.com/KaganHanCatan"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
             </div>
+        </div>
+    </nav>
+</header>
 
-            <div class="home-img">
-              <svg
-                class="home-blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+<main class="main">
+    <section class="home section" id="home">
+        <div class="home-container container grid">
+            <div class="home-content grid">
+                <div class="home-social">
+                    <a
+                            class="home-social-icon"
+                            href="https://www.linkedin.com/in/kaganhancatan/"
+                            target="_blank"
+                    >
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a
+                            class="home-social-icon"
+                            href="https://www.kaggle.com/kagancatan"
+                            target="_blank"
+                    >
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                    <a
+                            class="home-social-icon"
+                            href="https://github.com/KaganHanCatan"
+                            target="_blank"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="home-img">
+                    <svg
+                            class="home-blob"
+                            viewBox="0 0 200 187"
+                            xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <mask id="mask0" mask-type="alpha">
+                            <path
+                                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
         130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
         97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
         0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path
+                                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home-blob-img"
-                    x="-15"
-                    y="-5"
-                    href="Assets/Icons/logo1.png"
-                  />
-                </g>
-              </svg>
-            </div>
+                            />
+                            <image
+                                    class="home-blob-img"
+                                    href="Assets/Icons/logo1.png"
+                                    x="-15"
+                                    y="-5"
+                            />
+                        </g>
+                    </svg>
+                </div>
 
-            <div class="home-data">
-              <h1 class="home-title">Hi, I am Kagan Han</h1>
-              <h3 class="home-subtitle">Data Scientist | Statistician</h3>
-              <p class="home-description">
-                Data scientist and statistician passionate about crafting impactful models and solutions.
-              </p>
-              <a href="#contact" class="button button-flex">
-                Contact Me <i class="fa-regular fa-envelope button-icon"></i>
-              </a>
+                <div class="home-data">
+                    <h1 class="home-title">Hi, I am Kagan</h1>
+                    <h3 class="home-subtitle">Data Scientist | Python Developer</h3>
+                    <p class="home-description">
+                        Python | Machine Learning | AI Enthusiast <br> Curiosity driven data scientist and python developer.
+                    </p>
+                    <a class="button button-flex" href="#contact">
+                        Contact Me <i class="fa-regular fa-envelope button-icon"></i>
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="home-scroll">
-            <a href="#about" class="home-scroll-button button-flex">
-              <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
-              <img class="home-scroll-mouse" src="Assets/mouse.svg" alt="" />
-              <span class="home-scroll-name">Scroll down</span>
-              <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
-            </a>
-          </div>
+            <div class="home-scroll">
+                <a class="home-scroll-button button-flex" href="#about">
+                    <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
+                    <img alt="" class="home-scroll-mouse" src="Assets/mouse.svg"/>
+                    <span class="home-scroll-name">Scroll down</span>
+                    <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
+                </a>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section class="about section" id="about">
+    <section class="about section" id="about">
         <h2 class="section-title">About Me</h2>
         <span class="section-subtitle">My Introduction</span>
 
         <div class="about-container container grid">
-          <img src="Assets/Icons/aboutimg.png" alt="" class="about-img" />
+            <img alt="" class="about-img" src="Assets/Icons/aboutimg.png"/>
 
-          <div class="about-data">
-            <p class="about-description">
-              Passionate data scientist and statistician skilled in statistical analysis, hypothesis testing, and building data-driven solutions.
-              Proficient in training machine learning models and staying updated with the latest industry developments.
-            </p>
+            <div class="about-data">
+                <p class="about-description">
+                    A data scientist with 2+ years of experience. My focus areas include machine learning, statistical analysis, data visualization, and MLOps.
+                    <br> Join me on this data-driven journey, where we unravel patterns, explore narratives, and bring data to life.
+                    <br> <b>Let's make your data tell a story that matters!</b>
 
-            <div class="about-info">
-              <div>
-                <span class="about-info-title">02+</span>
-                <span class="about-info-name"
-                  >Years <br />
+                </p>
+
+                <div class="about-info">
+                    <div>
+                        <span class="about-info-title">02+</span>
+                        <span class="about-info-name"
+                        >Years <br/>
                   experience</span
-                >
-              </div>
-              <div>
-                <span class="about-info-title">5+</span>
-                <span class="about-info-name"
-                  >Completed <br />
+                        >
+                    </div>
+                    <div>
+                        <span class="about-info-title">05+</span>
+                        <span class="about-info-name"
+                        >Completed <br/>
                   project</span
-                >
-              </div>
-              <div>
-                <span class="about-info-title">01+</span>
-                <span class="about-info-name"
-                  >Companies <br />
+                        >
+                    </div>
+                    <div>
+                        <span class="about-info-title">01+</span>
+                        <span class="about-info-name"
+                        >Companies <br/>
                   worked</span
-                >
-              </div>
-            </div>
+                        >
+                    </div>
+                </div>
+                <div class="button-container">
+                    <div class="about-buttons">
+                        <a
+                                class="button button-flex"
+                                download=""
+                                href="/Assets/Resume.pdf"
+                        >
+                            Download Resume<i
+                                class="fa-solid fa-file-arrow-down button-icon"
+                        ></i>
+                        </a>
+                    </div>
 
-            <div class="about-buttons">
-              <a
-                download=""
-                href="/Assets/Resume.pdf"
-                class="button button-flex"
-              >
-                Download Resume<i
-                  class="fa-solid fa-file-arrow-down button-icon"
-                ></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+                    <div class="about-buttons">
+                        <a
+                                class="button button-flex"
+                                target="_blank"
+                                href="https://kaganhancatan.notion.site/Kagan-Han-Catan-Portfolio-01b2befeccb6402685a012df87090742?pvs=4"
+                        >
+                            View My Portfolio<i
+                                class="fa-solid fa-briefcase button-icon"
+                        ></i>
+                        </a>
+                    </div>
+                </div>
 
-      <!-- skills and qualification  -->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <span class="section-subtitle">My Technical Skills</span>
-        <div class="skills-content container">
-          <div class="skills-name"><i class="fa-brands fa-python"></i> Python</div>
-          <div class="skills-name"><i class="fa-solid fa-laptop-code"></i> Machine Learning</div>
-          <div class="skills-name"><i class="fa-solid fa-magnifying-glass-chart"></i> Statistical Analysis</div>
-          <div class="skills-name"><i class="fa-solid fa-chart-line"></i> Data Visualisation</div>
-          <div class="skills-name"><i class="fa-solid fa-database"></i> SQL | POSTGRESQL</div>
-          <div class="skills-name"><i class="fa-brands fa-octopus-deploy"></i> Model Deployment</div>
-        </div>
-      </section>
-      <section class="qualification section">
+                </div>
+
+            </div>
+    </section>
+
+    <section class="qualification section">
         <h2 class="section-title">Qualification</h2>
         <span class="section-subtitle">My journey</span>
 
         <div class="qualification-container container">
-          <div class="qualification-tabs">
-            <div
-              class="qualification-button button-flex qualification-active"
-              data-target="#education"
-            >
-              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
-              Education
-            </div>
-            <div class="qualification-button button-flex" data-target="#work">
-              <i class="fa-solid fa-briefcase qualification-icon"></i>
-              Work
-            </div>
-          </div>
-
-          <div class="qualification-section">
-            <div
-              class="qualification-content qualification-active"
-              data-content
-              id="education"
-            >
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">
-                    Statistics
-                  </h3>
-                  <span class="qualification-subtitle">Eskisehir Technical University</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2016 - 2022
-                  </div>
+            <div class="qualification-tabs">
+                <div class="qualification-button button-flex" data-target="#work">
+                    <i class="fa-solid fa-briefcase qualification-icon"></i>
+                    Work
                 </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 2 -->
-
-              <div class="qualification-data">
-                <div></div>
-
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
+                <div
+                        class="qualification-button button-flex qualification-active"
+                        data-target="#education"
+                >
+                    <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+                    Education
                 </div>
 
-                <div>
-                  <h3 class="qualification-title">
-                  </h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2021 - 2022
-                  </div>
-                </div>
-              </div>
-
-              <!-- qualifi 3 -->
-
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title"></h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2021 - 2022
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 4 -->
-
-              <div class="qualification-data">
-                <div></div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <!-- <span class="qualification-line"></span> -->
-                </div>
-                <div>
-                  <h3 class="qualification-title"></h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2019 - 2020
-                  </div>
-                </div>
-              </div>
             </div>
 
-            <!-- qualific content 2  -->
-            <div class="qualification-content" data-content id="work">
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title"></h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2022 - Present
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
+            <div class="qualification-section">
+                <div
+                        class="qualification-content"
+                        data-content
+                        id="education"
+                >
+                    <!-- qualifi 1 -->
 
-              <!-- qualifi 2 -->
+                    <div class="qualification-data">
+                        <div></div>
 
-              <div class="qualification-data">
-                <div></div>
+                        <div>
+                            <span class="qualification-round"></span>
+                            <span class="qualification-line"></span>
+                        </div>
 
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
+                        <div>
+                            <h3 class="qualification-title">
+                                Anadolu University
+                            </h3>
+                            <span class="qualification-subtitle">English Prep School</span>
+                            <div class="qualification-date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2016 - 2018
+                            </div>
+                        </div>
+                    </div>
+                    <!-- qualifi 2 -->
+                    <div class="qualification-data">
+                        <div>
+                            <h3 class="qualification-title">
+                                B.S. in Statistics
+                            </h3>
+                            <span class="qualification-subtitle">Eskisehir Technical University</span>
+                            <div class="qualification-date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2018 - 2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification-round"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                    </div>
                 </div>
 
-                <div>
-                  <h3 class="qualification-title"></h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2022 - Present
-                  </div>
-                </div>
-              </div>
+                <!-- qualific content 2  -->
+                <div class="qualification-content qualification-active" data-content id="work">
+                    <!-- qualifi 1 -->
+                    <div class="qualification-data">
+                        <div>
+                            <h3 class="qualification-title">Peopleoma</h3>
+                            <span class="qualification-subtitle">Data Science Intern</span>
+                            <div class="qualification-date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2022 April - 2022 July
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification-round"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+                    </div>
 
-              <!-- qualifi 3 -->
+                    <!-- qualifi 2 -->
 
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title"></h3>
-                  <span class="qualification-subtitle"></span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2019 - Present
-                  </div>
+                    <div class="qualification-data">
+                        <div></div>
+
+                        <div>
+                            <span class="qualification-round"></span>
+                            <span class="qualification-line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification-title">Peopleoma</h3>
+                            <span class="qualification-subtitle">Jr. Data Scientist</span>
+                            <div class="qualification-date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                2022 - Present
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <!-- <span class="qualification-line"></span> -->
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="services section" id="services">
+    <!-- skills and qualification  -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <span class="section-subtitle">My Technical Skills</span>
+        <div class="skills-content container">
+            <div class="skills-name"><i class="fa-brands fa-python"></i> Python</div>
+            <div class="skills-name"><i class="fa-solid fa-database"></i> SQL</div>
+            <div class="skills-name"><i class="fa-solid fa-cubes"></i> Scikit-Learn</div>
+            <div class="skills-name"><i class="fa-brands fa-facebook-f"></i> NeuralProphet</div>
+            <div class="skills-name"><i class="fa-solid fa-bolt"></i> Fastapi</div>
+            <div class="skills-name"><i class="fa-solid fa-crown"></i> Streamlit</div>
+            <div class="skills-name"><i class="fa-brands fa-github-alt"></i> Git</div>
+            <div class="skills-name"><i class="fa-solid fa-box"></i> Docker</div>
+            <div class="skills-name"><i class="fa-solid fa-laptop-code"></i> Machine Learning</div>
+            <div class="skills-name"><i class="fa-solid fa-magnifying-glass-chart"></i> Statistical Analysis</div>
+            <div class="skills-name"><i class="fa-solid fa-chart-line"></i> Data Visualisation</div>
+            <div class="skills-name"><i class="fa-brands fa-octopus-deploy"></i> Model Deployment</div>
+        </div>
+    </section>
+
+
+    <!-- portfolio -->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Projects</h2>
+        <span class="section-subtitle">Most recent work</span>
+
+        <!--        <div class="portfolio-container container swiper-container">
+                  <div class="swiper-wrapper">
+                    &lt;!&ndash; project1  &ndash;&gt;
+                    <div class="portfolio-content grid swiper-slide">
+                      <img src="Assets/project1.png" alt="" class="portfolio-img" />
+
+                      <div class="portfolio-data">
+                        <h3 class="portfolio-title">Data Quality</h3>
+                        <p class="portfolio-description">
+                          Data is referred to as the oil of the 21st century today. Some even believe it is more valuable than oil. However, for data to be meaningful, it needs to be processed and undergo certain operations. In the HR analytics tool Peopleoma that I work, I developed the data quality module to address this need.
+                        </p>
+                        <a
+                                href="https://kaganhancatan.notion.site/Data-Quality-04128238c92e4e98bea1a98634a85b00?pvs=4"
+                                target="_blank"
+                                class="button button-flex button-small portfolio-button"
+                        >Project Link
+                          <i class="fa-solid fa-arrow-right button-icon"></i
+                          ></a>
+                      </div>
+                    </div>
+                    &lt;!&ndash; project2  &ndash;&gt;
+                    <div class="portfolio-content grid swiper-slide">
+                      <img src="Assets/project2.png" alt="" class="portfolio-img" />
+
+                      <div class="portfolio-data">
+                        <h3 class="portfolio-title">HR Forecasting System</h3>
+                        <p class="portfolio-description">
+                          Anticipating the future is crucial for businesses and organizations. In this project, a predictive algorithm has been developed in the Human Resources field to implement a warning system that informs companies in advance about expected risks or changes in the next three months.
+                        </p>
+                        <a
+                                href="https://kaganhancatan.notion.site/HR-Forecasting-System-1a283e689cf543d2a1bc59c1f865a649?pvs=4"
+                                target="_blank"
+                                class="button button-flex button-small portfolio-button"
+                        >Project Link
+                          <i class="fa-solid fa-arrow-right button-icon"></i
+                          ></a>
+                      </div>
+                    </div>
+                    &lt;!&ndash; project3  &ndash;&gt;
+                    <div class="portfolio-content grid swiper-slide">
+                      <img src="Assets/project3.png" alt="" class="portfolio-img" />
+
+                      <div class="portfolio-data">
+                        <h3 class="portfolio-title">Correlation Module</h3>
+                        <p class="portfolio-description">
+                          Correlation module to detect relationships of turnover.
+                        </p>
+                        <a
+                                href=""
+                                target="_blank"
+                                class="button button-flex button-small portfolio-button"
+                        >Project Link
+                          <i class="fa-solid fa-arrow-right button-icon"></i
+                          ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-angles">
+                    <div class="swiper-button-next">
+                      <i class="fa-solid fa-angle-right swiper-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="fa-solid fa-angle-left swiper-icon"></i>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>-->
+        <div class="portfolio-container container">
+            <!-- project1 -->
+            <div class="portfolio-content grid">
+                <img alt="" class="portfolio-img" src="Assets/project1.png"/>
+
+                <div class="portfolio-data">
+                    <h3 class="portfolio-title">Data Quality</h3>
+                    <p class="portfolio-description">
+                        Data is referred to as the oil of the 21st century today. Some even believe it is more valuable
+                        than oil. However, for data to be meaningful, it needs to be processed and undergo certain
+                        operations. In the HR analytics tool Peopleoma that I work, I developed the data quality module
+                        to address this need.
+                    </p>
+                    <a class="button button-flex button-small portfolio-button"
+                       href="https://kaganhancatan.notion.site/Data-Quality-dc6cebb54c4c4f3896b29f88bd61da2f?pvs=4" target="_blank">
+                        Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- project2 -->
+            <div class="portfolio-content grid">
+                <img alt="" class="portfolio-img" src="Assets/project2.png"/>
+
+                <div class="portfolio-data">
+                    <h3 class="portfolio-title">HR Forecasting System</h3>
+                    <p class="portfolio-description">
+                        Anticipating the future is crucial for businesses and organizations. In this project, a
+                        predictive algorithm has been developed in the Human Resources field to implement a warning
+                        system that informs companies in advance about expected risks or changes in the next three
+                        months.
+                    </p>
+                    <a class="button button-flex button-small portfolio-button"
+                       href="https://kaganhancatan.notion.site/HR-Forecasting-System-d0cd6d612c254130bf66e546d833ca2e?pvs=4" target="_blank">
+                        Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- project3 -->
+            <div class="portfolio-content grid">
+                <img alt="" class="portfolio-img" src="Assets/project3.png"/>
+
+                <div class="portfolio-data">
+                    <h3 class="portfolio-title">HR Correlation Analytics: Correlation Dashboard Revealing Turnover
+                        Dynamics</h3>
+                    <p class="portfolio-description">
+                        Some crucial patterns may go unnoticed amid the complexity and intensity of business processes.
+                        Overlooking such aspects in the field of human resources can lead to the loss of valuable
+                        employees. In this context, I developed the correlation page within the Peopleoma Human Resource
+                        Analytics tool to understand and utilize variables associated with employee turnover. This
+                        module, designed with a user-friendly interface, aims to be comprehensible even to individuals
+                        not specialized in this domain.
+                    </p>
+                    <a class="button button-flex button-small portfolio-button"
+                       href="https://kaganhancatan.notion.site/HR-Correlation-Analytics-Correlation-Dashboard-Revealing-Turnover-Dynamics-1a7199a83e694763ac3e6223f2b87343?pvs=4" target="_blank">
+                        Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project4 -->
+            <div class="portfolio-content grid">
+                <img alt="" class="portfolio-img" src="Assets/project4.png"/>
+
+                <div class="portfolio-data">
+                    <h3 class="portfolio-title">Web Application for Statistical Analysis and Machine Learning Algorithms
+                        with R and Python Programming Languages</h3>
+                    <p class="portfolio-description">
+                        Machine learning algorithms are powerful tools used extensively to facilitate decision-making,
+                        especially when the dependent variable is dependent on many numerical or categorical variables.
+                        In this project, I created a web page that the user can upload the desired datasets, presenting
+                        the descriptive statistics selected according to the user's demand and the dependent variable
+                        predicted with a machine learning algorithm chosen by the user. The hyper-parameters can be
+                        optimized, and in addition to these, the user can specify the analysis. It is planned to create
+                        an interface that presents the results (prediction values, confusion matrix, accuracy, etc.).
+                    </p>
+                    <a class="button button-flex button-small portfolio-button"
+                       href="https://kaganhancatan.notion.site/Web-Application-for-Statistical-Analysis-and-Machine-Learning-Algorithms-with-R-and-Python-Programmi-149220eb24454468982adcca1b1837d0?pvs=4" target="_blank">
+                        Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- project5 -->
+            <div class="portfolio-content grid">
+                <img alt="" class="portfolio-img" src="Assets/project5.png"/>
+
+                <div class="portfolio-data">
+                    <h3 class="portfolio-title">Gender Gap Forecast</h3>
+                    <p class="portfolio-description">
+                        Efforts to achieve gender equality and fair representation of all genders have become a
+                        significant priority in today's business world. In this context, the module I have developed has
+                        the capability to use past data to make predictions for the next three years, enabling companies
+                        to reach their predefined gender diversity goals. It forecasts the number of individuals to be
+                        employed and their gender distribution.
+                    </p>
+                    <a class="button button-flex button-small portfolio-button"
+                       href="https://kaganhancatan.notion.site/Gender-Gap-Forecast-07d9383d35b947878cd848dea94096fe?pvs=4" target="_blank">
+                        Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- project5 -->
+
+
+    </section>
+
+    <!--<section class="services section" id="services">
         <h2 class="section-title">Services</h2>
         <span class="section-subtitle">What I offer</span>
 
         <div class="services-container container grid">
-          <!-- service 1  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-solid fa-chart-area services-icon"></i>
+            &lt;!&ndash; service 1  &ndash;&gt;
+            <div class="services-content">
+                <div>
+                    <i class="fa-solid fa-chart-area services-icon"></i>
 
-              <h3 class="services-title">
-                Statistical <br />
-                Analysis
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
+                    <h3 class="services-title">
+                        Statistical <br/>
+                        Analysis
+                    </h3>
+                </div>
+                <span
+                        class="button button-flex button-small button-link services-button"
+                >
               View more
               <i class="fa-solid fa-arrow-right button-icon"></i>
             </span>
 
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Statistical <br />
-                  Analysis
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
+                <div class="services-box">
+                    <div class="services-box-content">
+                        <h4 class="services-box-title">
+                            Statistical <br/>
+                            Analysis
+                        </h4>
+                        <i class="fa-solid fa-xmark services-box-close"></i>
 
-                <ul class="services-box-services grid">
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Explanatory Data Analysis</p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Hypothesis Testing</p>
-                  </li>
-                </ul>
-              </div>
+                        <ul class="services-box-services grid">
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Explanatory Data Analysis</p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Hypothesis Testing</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- service 2  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-brands fa-uikit services-icon"></i>
-              <h3 class="services-title">
-                Machine <br />
-                Learning
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
+            &lt;!&ndash; service 2  &ndash;&gt;
+            <div class="services-content">
+                <div>
+                    <i class="fa-brands fa-uikit services-icon"></i>
+                    <h3 class="services-title">
+                        Machine <br/>
+                        Learning
+                    </h3>
+                </div>
+                <span
+                        class="button button-flex button-small button-link services-button"
+                >
               View more
               <i class="fa-solid fa-arrow-right button-icon"></i>
             </span>
 
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Machine <br />
-                  Learning
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
+                <div class="services-box">
+                    <div class="services-box-content">
+                        <h4 class="services-box-title">
+                            Machine <br/>
+                            Learning
+                        </h4>
+                        <i class="fa-solid fa-xmark services-box-close"></i>
 
-                <ul class="services-box-services grid">
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Feature Engineering</p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Model Training</p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Seamless User Experience Optimization</p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p>Accessibility and Usability Enhancements</p>
-                  </li>
-                </ul>
-              </div>
+                        <ul class="services-box-services grid">
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Feature Engineering</p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Model Training</p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Seamless User Experience Optimization</p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p>Accessibility and Usability Enhancements</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- service 3  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-brands fa-python services-icon"></i>
-              <h3 class="services-title">
-                Python<br />
-                Programming
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
+            &lt;!&ndash; service 3  &ndash;&gt;
+            <div class="services-content">
+                <div>
+                    <i class="fa-brands fa-python services-icon"></i>
+                    <h3 class="services-title">
+                        Python<br/>
+                        Programming
+                    </h3>
+                </div>
+                <span
+                        class="button button-flex button-small button-link services-button"
+                >
               View more
               <i class="fa-solid fa-arrow-right button-icon"></i>
             </span>
 
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Python <br />
-                  Programming
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
+                <div class="services-box">
+                    <div class="services-box-content">
+                        <h4 class="services-box-title">
+                            Python <br/>
+                            Programming
+                        </h4>
+                        <i class="fa-solid fa-xmark services-box-close"></i>
 
-                <ul class="services-box-services grid">
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p></p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p></p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p></p>
-                  </li>
-                  <li class="services-box-list">
-                    <i
-                      class="fa-regular fa-circle-check services-list-icon"
-                    ></i>
-                    <p></p>
-                  </li>
-                </ul>
-              </div>
+                        <ul class="services-box-services grid">
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p></p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p></p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p></p>
+                            </li>
+                            <li class="services-box-list">
+                                <i
+                                        class="fa-regular fa-circle-check services-list-icon"
+                                ></i>
+                                <p></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>-->
 
-      <!-- portfolio -->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section-title">Projects</h2>
-        <span class="section-subtitle">Most recent work</span>
 
-        <div class="portfolio-container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- project1  -->
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/project1.png" alt="" class="portfolio-img" />
-
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">Data Quality Module</h3>
-                <p class="portfolio-description">
-                  Data quality module that detects and visualise missing data and outlier.
-                </p>
-                <a
-                  href=""
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon"></i
-                ></a>
+    <!--      <section class="project-contact section">
+            <div class="project-bg">
+              <div class="project-container container grid">
+                <div class="project-data">
+                  <h2 class="project-title">Do you have a new project?</h2>
+                  <p class="project-description">
+                    Contact me now and get a 50% discount on your new project.
+                  </p>
+                  <a href="#contact" class="button button-flex button-white"
+                    >Contact Me
+                    <i
+                      class="fa-regular fa-comment-dots project-icon button-icon"
+                    ></i>
+                  </a>
+                </div>
+                <img src="Assets/Icons/contactme.png" alt="" class="project-img" />
               </div>
             </div>
-            <!-- project2  -->
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/project2.png" alt="" class="portfolio-img" />
+          </section>-->
 
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">KPI Forecast</h3>
-                <p class="portfolio-description">
-                  Most used KPI's forecast to keep companies ahead.
-                </p>
-                <a
-                  href=""
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon"></i
-                ></a>
-              </div>
-            </div>
-            <!-- project3  -->
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/project3.png" alt="" class="portfolio-img" />
-
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">Correlation Module</h3>
-                <p class="portfolio-description">
-                  Correlation module to detect relationships of turnover.
-                </p>
-                <a
-                  href=""
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-angles">
-            <div class="swiper-button-next">
-              <i class="fa-solid fa-angle-right swiper-icon"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="fa-solid fa-angle-left swiper-icon"></i>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-      <section class="project-contact section">
-        <div class="project-bg">
-          <div class="project-container container grid">
-            <div class="project-data">
-              <h2 class="project-title">Do you have a new project?</h2>
-              <p class="project-description">
-                Contact me now and get a 50% discount on your new project.
-              </p>
-              <a href="#contact" class="button button-flex button-white"
-                >Contact Me
-                <i
-                  class="fa-regular fa-comment-dots project-icon button-icon"
-                ></i>
-              </a>
-            </div>
-            <img src="Assets/Icons/contactme.png" alt="" class="project-img" />
-          </div>
-        </div>
-      </section>
-
-      <!-- contact me  -->
-      <section class="contact section" id="contact">
+    <!-- contact me  -->
+    <section class="contact section" id="contact">
         <h2 class="section-title">Contact me</h2>
         <span class="section-subtitle">Get in touch</span>
 
-        <div class="contact-container container grid">
-          <div>
-            <div class="contact-info">
-              <i class="fa-regular fa-envelope contact-icon"></i>
-              <div>
-                <h3 class="contact-title">Email</h3>
-                <a
-                  href="mailto:kagan.catan@gmail.com.com"
-                  target="_blank"
-                  class="contact-subtitle"
-                  >kagan.catan@gmail.com</a
-                >
-              </div>
-            </div>
-            <div class="contact-info">
-              <i class="fa-brands fa-linkedin-in contact-icon"></i>
-              <div>
-                <h3 class="contact-title">Linkedin</h3>
-                <a
-                  class="contact-subtitle"
-                  href="https://www.linkedin.com/in/kaganhancatan/"
-                  target="_blank"
-                  >@kaganhancatan</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <div class="contact-container container">
+            <div class="contact-info-container">
+                <div class="contact-info">
+                    <i class="fa-regular fa-envelope contact-icon"></i>
+                    <div>
+                        <a
+                                class="contact-subtitle"
+                                href="mailto:kagan.catan@gmail.com.com"
+                                target="_blank"
+                        >kagan.catan@gmail.com</a
+                        >
+                    </div>
+                </div>
 
-      <!-- footer  -->
-      <footer class="footer">
+                <div class="contact-info">
+                    <i class="fa-brands fa-linkedin-in contact-icon"></i>
+                    <div>
+                        <a
+                                class="contact-subtitle"
+                                href="https://www.linkedin.com/in/kaganhancatan/"
+                                target="_blank"
+                        >@kaganhancatan</a
+                        >
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <i class="fa-brands fa-kaggle contact-icon"></i>
+                    <div>
+                        <a
+                                class="contact-subtitle"
+                                href="https://www.kaggle.com/kagancatan"
+                                target="_blank"
+                        >@kaganhancatan</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer">
         <div class="footer-bg">
-          <div class="footer-container container grid">
-            <div>
-              <h1 class="footer-title">Kagan Han Catan</h1>
-              <span class="footer-subtitle">Data Scientist | Statistician</span>
-            </div>
-            <ul class="footer-links">
-              <li>
-                <a href="#services" class="footer-link">Services</a>
-              </li>
-              <li>
-                <a href="#portfolio" class="footer-link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer-link">Contact</a>
-              </li>
-            </ul>
+            <div class="footer-container container">
 
-            <div class="footer-socials">
-              <a
-                href="https://www.linkedin.com/in/kaganhancatan/"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://github.com/KaganHanCatan"
-                target="_blank"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
-              <a
-                href="https://www.kaggle.com/kagancatan"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fa-brands fa-kaggle"></i>
-              </a>
+                <div>
+                    <h1 class="footer-title">Kagan Han Catan</h1>
+                    <span class="footer-subtitle">Data Scientist | Statistician | Python Developer</span>
+                </div>
+
+                <!--            <ul class="footer-links">
+                              <li>
+                                <a href="#services" class="footer-link">Services</a>
+                              </li>
+                              <li>
+                                <a href="#portfolio" class="footer-link">Portfolio</a>
+                              </li>
+                              <li>
+                                <a href="#contact" class="footer-link">Contact</a>
+                              </li>
+                            </ul>-->
+
+                <div class="footer-socials">
+                    <a
+                            class="footer-social"
+                            href="https://www.linkedin.com/in/kaganhancatan/"
+                            target="_blank"
+                    >
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a
+                            class="footer-social"
+                            href="https://github.com/KaganHanCatan"
+                            target="_blank"
+                            target="_blank"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                            class="footer-social"
+                            href="https://www.kaggle.com/kagancatan"
+                            target="_blank"
+                    >
+                        <i class="fa-brands fa-kaggle"></i>
+                    </a>
+                </div>
             </div>
-          </div>
-          <p class="footer-copy"><i class="fa-regular fa-copyright"></i> Kagan Han Catan</p>
+            <p class="footer-copy"><i class="fa-regular fa-copyright"></i> Kagan Han Catan</p>
         </div>
-      </footer>
-    </main>
+    </footer>
+</main>
 
-    <a href="#home" class="scrollup" id="scroll-up">
-      <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
-    </a>
-    <script src="Libraries/swiper-bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/9b634c15bd.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+<a class="scrollup" href="#home" id="scroll-up">
+    <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
+</a>
+<script src="Libraries/swiper-bundle.min.js"></script>
+<script
+        crossorigin="anonymous"
+        src="https://kit.fontawesome.com/9b634c15bd.js"
+></script>
+<script src="script.js"></script>
+</body>
 </html>

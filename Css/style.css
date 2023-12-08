@@ -43,9 +43,11 @@
   --z-fixed: 100;
   --z-model: 100;
 
+}
+
   @media screen and (min-width: 968px) {
     :root {
-      --big-font-size: 3rem;
+      --big-font-size: 2rem;
       --h1-font-size: 2.25rem;
       --h2-font-size: 1.5rem;
       --h3-font-size: 1.25rem;
@@ -54,7 +56,6 @@
       --smaller-font-size: 0.813rem;
     }
   }
-}
 
 /* dark color scheme  */
 body.dark-theme {
@@ -635,6 +636,7 @@ img {
 
 .portfolio-content {
   padding: 0 1.5rem;
+  margin-top: 50px;
 }
 
 .portfolio-img {
@@ -757,8 +759,12 @@ img {
 }
 
 .contact-info {
-  display: flex;
   margin-bottom: var(--margin-bottom-0-2);
+
+}
+.contact-info-container {
+  display: flex;
+  justify-content: space-around; /* This will create space between the two child divs */
 }
 
 .contact-icon {
@@ -811,6 +817,10 @@ img {
 }
 .footer-link:hover {
   color: var(--first-color-lighter);
+}
+
+.footer-socials {
+  margin-top: var(--margin-bottom-0-1-5);
 }
 
 .footer-social {
@@ -1056,6 +1066,10 @@ img {
 
   .about-buttons {
     justify-content: initial;
+    margin-right: 10px;
+  }
+  .button-container {
+    display: flex;
   }
 
   .qualification-tabs {
@@ -1139,7 +1153,7 @@ img {
 
 /* large devices */
 @media screen and (min-width: 1024px) {
-  .heder,
+  .header,
   .main,
   .footer-container {
     padding: 0;
