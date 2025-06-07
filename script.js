@@ -44,10 +44,10 @@ window.addEventListener('scroll', function() {
     const nav = document.querySelector('.nav');
     if (nav) {
         if (window.scrollY > 100) {
-            nav.style.background = 'rgba(255, 255, 255, 0.98)';
-            nav.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+            nav.style.background = 'rgba(15, 23, 42, 0.98)';
+            nav.style.boxShadow = '0 2px 20px rgba(20, 184, 166, 0.2)';
         } else {
-            nav.style.background = 'rgba(255, 255, 255, 0.95)';
+            nav.style.background = 'rgba(15, 23, 42, 0.95)';
             nav.style.boxShadow = 'none';
         }
     }
@@ -140,6 +140,7 @@ function initializeTranslations() {
                 'nav-about': websiteContent.navigation.en.about,
                 'nav-experience': websiteContent.navigation.en.experience,
                 'nav-projects': websiteContent.navigation.en.projects,
+                'nav-blog': 'Blog',
                 
                 // Hero Section
                 'hero-greeting': websiteContent.hero.en.greeting,
@@ -169,7 +170,12 @@ function initializeTranslations() {
                 
                 // Projects Section
                 'projects-title': websiteContent.projects.en.title,
-                'projects-subtitle': websiteContent.projects.en.subtitle
+                'projects-subtitle': websiteContent.projects.en.subtitle,
+                
+                // Blog Section
+                'blog-title': 'Latest Blog Posts',
+                'blog-subtitle': 'Insights and thoughts from my journey',
+                'blog-view-all': 'View All Posts on Medium'
             },
             tr: {
                 // Navigation
@@ -177,6 +183,7 @@ function initializeTranslations() {
                 'nav-about': websiteContent.navigation.tr.about,
                 'nav-experience': websiteContent.navigation.tr.experience,
                 'nav-projects': websiteContent.navigation.tr.projects,
+                'nav-blog': 'Blog',
                 
                 // Hero Section
                 'hero-greeting': websiteContent.hero.tr.greeting,
@@ -206,7 +213,12 @@ function initializeTranslations() {
                 
                 // Projects Section
                 'projects-title': websiteContent.projects.tr.title,
-                'projects-subtitle': websiteContent.projects.tr.subtitle
+                'projects-subtitle': websiteContent.projects.tr.subtitle,
+                
+                // Blog Section
+                'blog-title': 'Son Blog Yazıları',
+                'blog-subtitle': 'Yolculuğumdan anılar ve düşünceler',
+                'blog-view-all': 'Medium\'da Tüm Yazıları Gör'
             }
         };
 }

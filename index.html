@@ -13,12 +13,13 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
-            <a href="#home" class="nav-logo">Kagan Han Catan</a>
+            <a href="#home" class="nav-logo"></a>
         <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link" data-translate="nav-home">Home</a>
                 <a href="#about" class="nav-link" data-translate="nav-about">About</a>
                 <a href="#experience" class="nav-link" data-translate="nav-experience">Experience</a>
                 <a href="#projects" class="nav-link" data-translate="nav-projects">Projects</a>
+                <a href="#blog" class="nav-link" data-translate="nav-blog">Blog</a>
             </div>
             <div class="nav-actions">
                 <div class="language-toggle" id="language-toggle">
@@ -222,7 +223,81 @@
         </div>
     </section>
 
-
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="blog-title">Latest Blog Posts</h2>
+                <p class="section-subtitle" data-translate="blog-subtitle">Insights and thoughts from my journey</p>
+            </div>
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be dynamically loaded here -->
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Dec 15, 2024</span>
+                        <h3 class="blog-title">Getting Started with Machine Learning</h3>
+                        <p class="blog-excerpt">
+                            A comprehensive guide to understanding the fundamentals of machine learning and how to start your journey in data science.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Data Science</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="#" class="blog-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Read on Medium
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Nov 28, 2024</span>
+                        <h3 class="blog-title">Data Visualization Best Practices</h3>
+                        <p class="blog-excerpt">
+                            Learn how to create compelling data visualizations that tell a story and drive decision-making in organizations.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">Analytics</span>
+                            <span class="tag">Storytelling</span>
+                        </div>
+                        <a href="#" class="blog-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Read on Medium
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-date">Nov 10, 2024</span>
+                        <h3 class="blog-title">Building MLOps Pipelines</h3>
+                        <p class="blog-excerpt">
+                            Discover how to build robust MLOps pipelines for production machine learning systems with proper monitoring and deployment.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">MLOps</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Production ML</span>
+                        </div>
+                        <a href="#" class="blog-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Read on Medium
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-footer">
+                <a href="https://medium.com/@kaganhancatan" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-medium"></i>
+                    <span data-translate="blog-view-all">View All Posts on Medium</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
 <script src="data/content.js"></script>
 <script src="script.js"></script>
