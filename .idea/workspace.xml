@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67dadb6-bda5-40e8-a800-e7a3b26787c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b67dadb6-bda5-40e8-a800-e7a3b26787c2" name="Changes" comment="Enhanced content of the portfolio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/neural-network-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/neural-network-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/content.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +69,24 @@
       <option name="presentableId" value="Default" />
       <updated>1749268321317</updated>
       <workItem from="1749268322668" duration="6000" />
-      <workItem from="1749324869001" duration="2419000" />
+      <workItem from="1749324869001" duration="3560000" />
     </task>
+    <task id="LOCAL-00001" summary="Enhanced content of the portfolio">
+      <option name="closed" value="true" />
+      <created>1749328093363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749328093363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enhanced content of the portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhanced content of the portfolio" />
   </component>
 </project>

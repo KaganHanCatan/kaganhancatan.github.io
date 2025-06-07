@@ -72,7 +72,8 @@
     "Data Visualization",
     "Transformers Architecture",
     "AI Agents",
-    "AI Tracing & Observability"
+    "AI Tracing & Observability",
+    "Much more..."
   ],
   "experience": {
     "en": {
@@ -156,31 +157,31 @@
           "title": "HR Forecasting System",
           "description": "Developed a predictive algorithm for Human Resources to implement an early warning system that informs companies about expected risks or changes in the next three months.",
           "tags": ["Python", "Machine Learning", "Forecasting"],
-          "link": "https://github.com/KaganHanCatan/hr-forecasting-system"
+          "link": "https://kaganhancatan.notion.site/HR-Forecasting-System-d0cd6d612c254130bf66e546d833ca2e?pvs=4"
         },
         {
           "title": "Data Quality Module",
           "description": "Created a comprehensive data quality assessment and monitoring system for the Peopleoma HR analytics platform to ensure data reliability and accuracy.",
           "tags": ["Python", "Data Quality", "ETL"],
-          "link": "https://github.com/KaganHanCatan/data-quality-module"
+          "link": "https://kaganhancatan.notion.site/Data-Quality-dc6cebb54c4c4f3896b29f88bd61da2f?pvs=4"
         },
         {
           "title": "Correlation Analytics Dashboard",
           "description": "Built an intuitive correlation dashboard to reveal employee turnover dynamics and help HR teams understand variables associated with employee retention.",
           "tags": ["Python", "Streamlit", "Data Viz"],
-          "link": "https://github.com/KaganHanCatan/correlation-analytics-dashboard"
+          "link": "https://kaganhancatan.notion.site/HR-Correlation-Analytics-Correlation-Dashboard-Revealing-Turnover-Dynamics-1a7199a83e694763ac3e6223f2b87343?pvs=4"
         },
         {
           "title": "Statistical Analysis Web App",
           "description": "Created a web application for statistical analysis and machine learning algorithms with R and Python, featuring data upload, analysis, and visualization capabilities.",
           "tags": ["R", "Python", "Web App"],
-          "link": "https://github.com/KaganHanCatan/statistical-analysis-webapp"
+          "link": "https://kaganhancatan.notion.site/Web-Application-for-Statistical-Analysis-and-Machine-Learning-Algorithms-with-R-and-Python-Programmi-149220eb24454468982adcca1b1837d0?pvs=4"
         },
         {
           "title": "Gender Gap Forecast",
           "description": "Developed a forecasting model that uses historical data to predict gender diversity metrics for the next three years, helping companies achieve their diversity goals.",
           "tags": ["Python", "Forecasting", "HR Analytics"],
-          "link": "https://github.com/KaganHanCatan/gender-gap-forecast"
+          "link": "https://kaganhancatan.notion.site/Gender-Gap-Forecast-07d9383d35b947878cd848dea94096fe?pvs=4"
         }
       ]
     },
@@ -223,62 +224,28 @@
   "blog": {
     "en": {
       "title": "Latest Blog Posts",
-      "subtitle": "Insights and thoughts from my journey",
       "viewAllButton": "View All Posts on Medium",
       "posts": [
         {
-          "date": "Dec 15, 2024",
-          "title": "Getting Started with Machine Learning",
-          "excerpt": "A comprehensive guide to understanding the fundamentals of machine learning and how to start your journey in data science.",
-          "tags": ["Machine Learning", "Data Science", "Python"],
-          "link": "#",
-          "linkText": "Read on Medium"
-        },
-        {
-          "date": "Nov 28, 2024",
-          "title": "Building Robust Data Pipelines",
-          "excerpt": "Learn best practices for creating scalable and maintainable data pipelines that can handle real-world challenges.",
-          "tags": ["Data Engineering", "Python", "ETL"],
-          "link": "#",
-          "linkText": "Read on Medium"
-        },
-        {
-          "date": "Nov 10, 2024",
-          "title": "The Future of AI in Business",
-          "excerpt": "Exploring how artificial intelligence is transforming business operations and what it means for the future of work.",
-          "tags": ["AI", "Business", "Future"],
-          "link": "#",
+          "date": "March 15, 2025",
+          "title": "Transformers Mimarisinin Temelleri — Input Embedding & Positional Encoding Katmanları",
+          "excerpt": "Son zamanlarda Transformer mimarisinin teorisi matematisel ifadeleri hakkında araştırma yaptığımda Türkçe olarak kaynak sayısının çok az olduğunu fark ettim ya da ben bulamadım. Bu nedenle Türkçe kaynak olması bakımından Transformer mimarisinin her bölümünü tek tek ele alacak bir yazı serisi yayınlamaya karar verdim.",
+          "tags": ["Deep Learning", "Transformers", "Positional Encoding"],
+          "link": "https://medium.com/@kagan.catan/transformers-mimarsinin-teorisi-input-embedding-positional-encoding-5833dbca70f7",
           "linkText": "Read on Medium"
         }
       ]
     },
     "tr": {
       "title": "Son Blog Yazıları",
-      "subtitle": "Yolculuğumdan anılar ve düşünceler",
       "viewAllButton": "Medium'da Tüm Yazıları Gör",
       "posts": [
         {
-          "date": "15 Aralık 2024",
-          "title": "Makine Öğrenmesine Başlangıç",
-          "excerpt": "Makine öğrenmesinin temellerini anlama ve veri bilimi yolculuğunuza nasıl başlayacağınıza dair kapsamlı bir rehber.",
-          "tags": ["Makine Öğrenmesi", "Veri Bilimi", "Python"],
-          "link": "#",
-          "linkText": "Medium'da Oku"
-        },
-        {
-          "date": "28 Kasım 2024",
-          "title": "Sağlam Veri Pipeline'ları Oluşturma",
-          "excerpt": "Gerçek dünya zorluklarıyla başa çıkabilen ölçeklenebilir ve sürdürülebilir veri pipeline'ları oluşturmak için en iyi uygulamaları öğrenin.",
-          "tags": ["Veri Mühendisliği", "Python", "ETL"],
-          "link": "#",
-          "linkText": "Medium'da Oku"
-        },
-        {
-          "date": "10 Kasım 2024",
-          "title": "İş Dünyasında AI'nın Geleceği",
-          "excerpt": "Yapay zekanın iş operasyonlarını nasıl dönüştürdüğünü ve çalışmanın geleceği için ne anlama geldiğini keşfetmek.",
-          "tags": ["AI", "İş Dünyası", "Gelecek"],
-          "link": "#",
+          "date": "10 Mart 2025",
+          "title": "Transformers Mimarisinin Temelleri — Input Embedding & Positional Encoding Katmanları",
+          "excerpt": "Son zamanlarda Transformer mimarisinin teorisi matematisel ifadeleri hakkında araştırma yaptığımda Türkçe olarak kaynak sayısının çok az olduğunu fark ettim ya da ben bulamadım. Bu nedenle Türkçe kaynak olması bakımından Transformer mimarisinin her bölümünü tek tek ele alacak bir yazı serisi yayınlamaya karar verdim.",
+          "tags": ["Deep Learning", "Transformers", "Positional Encoding"],
+          "link": "https://medium.com/@kagan.catan/transformers-mimarsinin-teorisi-input-embedding-positional-encoding-5833dbca70f7",
           "linkText": "Medium'da Oku"
         }
       ]
