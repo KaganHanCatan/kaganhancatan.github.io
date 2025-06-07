@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Kagan Han Catan",
-    "title": "Data Scientist & Python Developer",
+    "title": "AI Engineer & Data Scientist",
     "email": "kagan.catan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kaganhancatan/",
     "github": "https://github.com/KaganHanCatan",
@@ -11,15 +11,15 @@
   "hero": {
     "en": {
       "greeting": "Hi, I'm",
-      "subtitle": "Data Scientist & Python Developer",
-      "description": "Curiosity-driven data scientist with 2+ years of experience in machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
+      "subtitle": "AI Engineer & Data Scientist",
+      "description": "Curiosity-driven AI Engineer with 4+ years of experience in deep learning, machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
       "portfolioButton": "My Portfolio",
       "resumeButton": "Resume"
     },
     "tr": {
       "greeting": "Merhaba, Ben",
-      "subtitle": "Veri Bilimci ve Python Geliştirici",
-      "description": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 2+ yıl deneyimli, merak odaklı bir veri bilimciyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
+      "subtitle": "Yapay Zeka Mühendisi & Veri Bilimci",
+      "description": "Derin öğrenme, makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 4+ yıl deneyimli, merak odaklı bir yapay zeka mühendisiyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
       "portfolioButton": "Portföyüm",
       "resumeButton": "Özgeçmiş"
     }
@@ -29,54 +29,50 @@
       "home": "Home",
       "about": "About",
       "experience": "Experience",
-      "projects": "Projects"
+      "projects": "Projects",
+      "blog": "Blog"
     },
     "tr": {
       "home": "Ana Sayfa",
       "about": "Hakkımda",
       "experience": "Deneyim",
-      "projects": "Projeler"
+      "projects": "Projeler",
+      "blog": "Blog"
     }
   },
   "about": {
     "en": {
       "title": "About Me",
-      "subtitle": "Getting to know me",
-      "description1": "I'm a passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, SQL, and various ML frameworks.",
-      "description2": "Currently working as a Jr. Data Scientist at Peopleoma, I focus on HR analytics, predictive modeling, and creating data-driven solutions that help organizations make informed decisions.",
-      "statYears": "2+",
+      "description1": "I'm a passionate AI Engineer with expertise in deep learning, machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, Statistical Analysis, and various ML/DL frameworks.",
+      "description2": "Currently working as an AI Engineer at OrbislabAI, I focus on AI Agents, Transformers Architecture, and creating AI-driven solutions that help organizations be more productive.",
+      "statYears": "4+",
       "statYearsLabel": "Years Experience",
-      "statProjects": "5+",
+      "statProjects": "10+",
       "statProjectsLabel": "Projects Completed",
-      "statCompanies": "1+",
+      "statCompanies": "3+",
       "statCompaniesLabel": "Companies Worked"
     },
     "tr": {
       "title": "Hakkımda",
-      "subtitle": "Beni tanıyın",
-      "description1": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme konularında uzmanlığa sahip tutkulu bir veri bilimciyim. Yolculuğum İstatistik lisans derecesi ile başladı ve o zamandan beri Python, SQL ve çeşitli ML framework'lerinde güçlü beceriler geliştirdim.",
-      "description2": "Şu anda Peopleoma'da Jr. Veri Bilimci olarak çalışıyor, HR analitiği, tahmin modelleme ve organizasyonların bilinçli kararlar almasına yardımcı olan veri odaklı çözümler geliştirmeye odaklanıyorum.",
-      "statYears": "2+",
+      "description1": "Derin öğrenme, makine öğrenimi, istatistiksel analiz ve veri görselleştirme konularında uzmanlaşmış tutkulu bir Yapay Zeka Mühendisiyim. Yolculuğum İstatistik lisans eğitimiyle başladı ve o zamandan beri Python, istatistiksel analiz ve çeşitli ML/DL (Makine Öğrenimi/Derin Öğrenme) framework'lerinde güçlü beceriler geliştirdim.",
+      "description2": "Şu anda OrbislabAI'da Yapay Zeka Mühendisi olarak çalışıyor, AI Agents, Transformers Mimarisi ve organizasyonların daha verimli olmalarına yardımcı olan AI odaklı çözümler geliştirmeye odaklanıyorum.",
+      "statYears": "4+",
       "statYearsLabel": "Yıl Deneyim",
-      "statProjects": "5+",
+      "statProjects": "10+",
       "statProjectsLabel": "Tamamlanan Proje",
-      "statCompanies": "1+",
+      "statCompanies": "3+",
       "statCompaniesLabel": "Çalışılan Şirket"
     }
   },
   "skills": [
     "Python",
-    "SQL",
+    "Deep Learning",
     "Machine Learning",
     "Statistical Analysis",
     "Data Visualization",
-    "Docker",
-    "Git",
-    "MLOps",
-    "Scikit-Learn",
-    "Pandas",
-    "NumPy",
-    "Streamlit"
+    "Transformers Architecture",
+    "AI Agents",
+    "AI Tracing & Observability"
   ],
   "experience": {
     "en": {
@@ -84,7 +80,19 @@
       "subtitle": "My professional journey",
       "items": [
         {
-          "period": "2022 - Present",
+          "period": "May 2025 - Present",
+          "title": "AI Engineer",
+          "company": "OrbislabsAI",
+          "description": "Agents, agents and agents..."
+        },
+        {
+          "period": "January 2024 - May 2025",
+          "title": "AI Engineer",
+          "company": "Softtech",
+          "description": "Enhanced organizational productivity by fine-tuning large language models on internal codebases, enabling tailored AI-driven development workflows."
+        },
+        {
+          "period": "July 2022 - January 2024",
           "title": "Jr. Data Scientist",
           "company": "Peopleoma",
           "description": "Developing HR analytics solutions, predictive models, and data quality modules. Working on forecasting systems and correlation analytics for employee turnover analysis."
@@ -108,7 +116,19 @@
       "subtitle": "Profesyonel yolculuğum",
       "items": [
         {
-          "period": "2022 - Şu an",
+          "period": "Mayıs 2025 - Şu an",
+          "title": "AI Engineer",
+          "company": "OrbislabsAI",
+          "description": "Ajanlar, ajanlar ve ajanlar..."
+        },
+        {
+          "period": "Ocak 2024 - Mayıs 2025",
+          "title": "AI Engineer",
+          "company": "Softtech",
+          "description": "Kurumsal verimliliği artırmak amacıyla, şirket içi kod tabanları üzerinde büyük dil modellerini fine-tune yaparak, özelleştirilmiş yapay zeka destekli geliştirme iş akışları sağladım."
+        },
+        {
+          "period": "Temmuz 2022 - Ocak 2024",
           "title": "Jr. Veri Bilimci",
           "company": "Peopleoma",
           "description": "İK analitik çözümleri, tahmin modelleri ve veri kalitesi modülleri geliştirme. Tahmin sistemleri ve çalışan devir oranı analizi için korelasyon analitiği üzerinde çalışma."
@@ -131,7 +151,6 @@
   "projects": {
     "en": {
       "title": "Featured Projects",
-      "subtitle": "Some of my recent work",
       "items": [
         {
           "title": "HR Forecasting System",
@@ -167,7 +186,6 @@
     },
     "tr": {
       "title": "Öne Çıkan Projeler",
-      "subtitle": "Son çalışmalarımdan bazıları",
       "items": [
         {
           "title": "İK Tahmin Sistemi",
@@ -198,6 +216,70 @@
           "description": "Şirketlerin çeşitlilik hedeflerine ulaşmasına yardımcı olarak, önümüzdeki üç yıl için cinsiyet çeşitliliği metriklerini tahmin etmek üzere geçmiş verileri kullanan bir tahmin modeli geliştirdim.",
           "tags": ["Python", "Tahmin", "İK Analitikleri"],
           "link": "https://github.com/KaganHanCatan/gender-gap-forecast"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "en": {
+      "title": "Latest Blog Posts",
+      "subtitle": "Insights and thoughts from my journey",
+      "viewAllButton": "View All Posts on Medium",
+      "posts": [
+        {
+          "date": "Dec 15, 2024",
+          "title": "Getting Started with Machine Learning",
+          "excerpt": "A comprehensive guide to understanding the fundamentals of machine learning and how to start your journey in data science.",
+          "tags": ["Machine Learning", "Data Science", "Python"],
+          "link": "#",
+          "linkText": "Read on Medium"
+        },
+        {
+          "date": "Nov 28, 2024",
+          "title": "Building Robust Data Pipelines",
+          "excerpt": "Learn best practices for creating scalable and maintainable data pipelines that can handle real-world challenges.",
+          "tags": ["Data Engineering", "Python", "ETL"],
+          "link": "#",
+          "linkText": "Read on Medium"
+        },
+        {
+          "date": "Nov 10, 2024",
+          "title": "The Future of AI in Business",
+          "excerpt": "Exploring how artificial intelligence is transforming business operations and what it means for the future of work.",
+          "tags": ["AI", "Business", "Future"],
+          "link": "#",
+          "linkText": "Read on Medium"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Son Blog Yazıları",
+      "subtitle": "Yolculuğumdan anılar ve düşünceler",
+      "viewAllButton": "Medium'da Tüm Yazıları Gör",
+      "posts": [
+        {
+          "date": "15 Aralık 2024",
+          "title": "Makine Öğrenmesine Başlangıç",
+          "excerpt": "Makine öğrenmesinin temellerini anlama ve veri bilimi yolculuğunuza nasıl başlayacağınıza dair kapsamlı bir rehber.",
+          "tags": ["Makine Öğrenmesi", "Veri Bilimi", "Python"],
+          "link": "#",
+          "linkText": "Medium'da Oku"
+        },
+        {
+          "date": "28 Kasım 2024",
+          "title": "Sağlam Veri Pipeline'ları Oluşturma",
+          "excerpt": "Gerçek dünya zorluklarıyla başa çıkabilen ölçeklenebilir ve sürdürülebilir veri pipeline'ları oluşturmak için en iyi uygulamaları öğrenin.",
+          "tags": ["Veri Mühendisliği", "Python", "ETL"],
+          "link": "#",
+          "linkText": "Medium'da Oku"
+        },
+        {
+          "date": "10 Kasım 2024",
+          "title": "İş Dünyasında AI'nın Geleceği",
+          "excerpt": "Yapay zekanın iş operasyonlarını nasıl dönüştürdüğünü ve çalışmanın geleceği için ne anlama geldiğini keşfetmek.",
+          "tags": ["AI", "İş Dünyası", "Gelecek"],
+          "link": "#",
+          "linkText": "Medium'da Oku"
         }
       ]
     }
