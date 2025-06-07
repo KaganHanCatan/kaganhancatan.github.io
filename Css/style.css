@@ -114,9 +114,11 @@ a {
 
 .language-toggle {
     display: flex;
-    background: #f1f5f9;
+    background: rgba(15, 23, 42, 0.3);
+    border: 1px solid rgba(20, 184, 166, 0.2);
     border-radius: 25px;
     padding: 2px;
+    backdrop-filter: blur(10px);
 }
 
 .lang-btn {
@@ -126,18 +128,20 @@ a {
     border-radius: 20px;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #666;
-  cursor: pointer;
+    color: #94a3b8;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .lang-btn.active {
-    background: #4f46e5;
+    background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
     color: white;
+    box-shadow: 0 2px 10px rgba(20, 184, 166, 0.3);
 }
 
 .lang-btn:hover:not(.active) {
-    background: #e2e8f0;
+    background: rgba(20, 184, 166, 0.1);
+    color: #14b8a6;
 }
 
 .nav-toggle {
@@ -153,9 +157,32 @@ a {
 .hero {
     min-height: 100vh;
     display: flex;
-  align-items: center;
+    align-items: center;
     padding: 8rem 0 4rem;
-    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 40%;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(
+        90deg, 
+        transparent 0%, 
+        rgba(20, 184, 166, 0.05) 20%, 
+        rgba(20, 184, 166, 0.1) 100%
+    ),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g opacity="0.9"><!-- Input Layer --><circle cx="100" cy="200" r="8" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="100" cy="300" r="8" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="100" cy="400" r="8" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="100" cy="500" r="8" fill="%2314b8a6" filter="url(%23glow)"/><!-- Hidden Layer 1 --><circle cx="300" cy="150" r="6" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="300" cy="225" r="6" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="300" cy="300" r="6" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="300" cy="375" r="6" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="300" cy="450" r="6" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="300" cy="525" r="6" fill="%2306b6d4" filter="url(%23glow)"/><!-- Hidden Layer 2 --><circle cx="500" cy="175" r="7" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="500" cy="250" r="7" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="500" cy="325" r="7" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="500" cy="400" r="7" fill="%2314b8a6" filter="url(%23glow)"/><circle cx="500" cy="475" r="7" fill="%2314b8a6" filter="url(%23glow)"/><!-- Output Layer --><circle cx="700" cy="250" r="8" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="700" cy="350" r="8" fill="%2306b6d4" filter="url(%23glow)"/><circle cx="700" cy="450" r="8" fill="%2306b6d4" filter="url(%23glow)"/></g><g opacity="0.7"><!-- Input to Hidden1 Full Connections --><line x1="108" y1="200" x2="292" y2="150" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="108" y1="200" x2="292" y2="225" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="108" y1="200" x2="292" y2="300" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="108" y1="200" x2="292" y2="375" stroke="%2314b8a6" stroke-width="0.7" opacity="0.2"/><line x1="108" y1="200" x2="292" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="108" y1="200" x2="292" y2="525" stroke="%2314b8a6" stroke-width="0.7" opacity="0.2"/><line x1="108" y1="300" x2="292" y2="150" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="108" y1="300" x2="292" y2="225" stroke="%2314b8a6" stroke-width="0.7" opacity="0.7"/><line x1="108" y1="300" x2="292" y2="300" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/><line x1="108" y1="300" x2="292" y2="375" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="108" y1="300" x2="292" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="108" y1="300" x2="292" y2="525" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="108" y1="400" x2="292" y2="150" stroke="%2314b8a6" stroke-width="0.7" opacity="0.2"/><line x1="108" y1="400" x2="292" y2="225" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="108" y1="400" x2="292" y2="300" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="108" y1="400" x2="292" y2="375" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/><line x1="108" y1="400" x2="292" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.7"/><line x1="108" y1="400" x2="292" y2="525" stroke="%2314b8a6" stroke-width="0.7" opacity="0.5"/><line x1="108" y1="500" x2="292" y2="150" stroke="%2314b8a6" stroke-width="0.7" opacity="0.2"/><line x1="108" y1="500" x2="292" y2="225" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="108" y1="500" x2="292" y2="300" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="108" y1="500" x2="292" y2="375" stroke="%2314b8a6" stroke-width="0.7" opacity="0.5"/><line x1="108" y1="500" x2="292" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.7"/><line x1="108" y1="500" x2="292" y2="525" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/></g><g opacity="0.6"><!-- Hidden1 to Hidden2 Full Connections --><line x1="308" y1="150" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.7"/><line x1="308" y1="150" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.5"/><line x1="308" y1="150" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.3"/><line x1="308" y1="150" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.2"/><line x1="308" y1="150" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.2"/><line x1="308" y1="225" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.5"/><line x1="308" y1="225" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.8"/><line x1="308" y1="225" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="225" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.4"/><line x1="308" y1="225" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.3"/><line x1="308" y1="300" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.3"/><line x1="308" y1="300" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="300" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.8"/><line x1="308" y1="300" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="300" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.4"/><line x1="308" y1="375" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.2"/><line x1="308" y1="375" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.4"/><line x1="308" y1="375" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="375" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.8"/><line x1="308" y1="375" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="450" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.2"/><line x1="308" y1="450" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.3"/><line x1="308" y1="450" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.4"/><line x1="308" y1="450" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.6"/><line x1="308" y1="450" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.8"/><line x1="308" y1="525" x2="492" y2="175" stroke="%2306b6d4" stroke-width="0.6" opacity="0.2"/><line x1="308" y1="525" x2="492" y2="250" stroke="%2306b6d4" stroke-width="0.6" opacity="0.3"/><line x1="308" y1="525" x2="492" y2="325" stroke="%2306b6d4" stroke-width="0.6" opacity="0.4"/><line x1="308" y1="525" x2="492" y2="400" stroke="%2306b6d4" stroke-width="0.6" opacity="0.5"/><line x1="308" y1="525" x2="492" y2="475" stroke="%2306b6d4" stroke-width="0.6" opacity="0.7"/></g><g opacity="0.7"><!-- Hidden2 to Output Full Connections --><line x1="508" y1="175" x2="692" y2="250" stroke="%2314b8a6" stroke-width="0.7" opacity="0.7"/><line x1="508" y1="175" x2="692" y2="350" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="508" y1="175" x2="692" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="508" y1="250" x2="692" y2="250" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/><line x1="508" y1="250" x2="692" y2="350" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="508" y1="250" x2="692" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="508" y1="325" x2="692" y2="250" stroke="%2314b8a6" stroke-width="0.7" opacity="0.5"/><line x1="508" y1="325" x2="692" y2="350" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/><line x1="508" y1="325" x2="692" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="508" y1="400" x2="692" y2="250" stroke="%2314b8a6" stroke-width="0.7" opacity="0.4"/><line x1="508" y1="400" x2="692" y2="350" stroke="%2314b8a6" stroke-width="0.7" opacity="0.6"/><line x1="508" y1="400" x2="692" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.8"/><line x1="508" y1="475" x2="692" y2="250" stroke="%2314b8a6" stroke-width="0.7" opacity="0.3"/><line x1="508" y1="475" x2="692" y2="350" stroke="%2314b8a6" stroke-width="0.7" opacity="0.5"/><line x1="508" y1="475" x2="692" y2="450" stroke="%2314b8a6" stroke-width="0.7" opacity="0.7"/></g><g opacity="0.5"><!-- Additional scattered nodes --><circle cx="850" cy="200" r="4" fill="%2306b6d4"/><circle cx="950" cy="300" r="5" fill="%2314b8a6"/><circle cx="1050" cy="400" r="4" fill="%2306b6d4"/><circle cx="200" cy="100" r="3" fill="%2314b8a6"/><circle cx="400" cy="600" r="4" fill="%2306b6d4"/><!-- Scattered connections --><line x1="708" y1="250" x2="846" y2="200" stroke="%2306b6d4" stroke-width="0.8" opacity="0.4"/><line x1="708" y1="350" x2="946" y2="300" stroke="%2314b8a6" stroke-width="0.8" opacity="0.4"/><line x1="708" y1="450" x2="1046" y2="400" stroke="%2306b6d4" stroke-width="0.8" opacity="0.4"/><line x1="850" y1="200" x2="946" y2="300" stroke="%2314b8a6" stroke-width="0.8" opacity="0.3"/><line x1="950" y1="300" x2="1046" y2="400" stroke="%2306b6d4" stroke-width="0.8" opacity="0.3"/></g></svg>');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: 0;
 }
 
 .hero-container {
@@ -163,6 +190,7 @@ a {
     margin: 0 auto;
     padding: 0 2rem;
     position: relative;
+    z-index: 10;
 }
 
 .hero-content {
@@ -170,40 +198,47 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-text {
-    z-index: 2;
+    z-index: 10;
+    position: relative;
 }
 
 .hero-greeting {
     font-size: 1.2rem;
-    color: #4f46e5;
+    color: #14b8a6;
     font-weight: 500;
     display: block;
     margin-bottom: 0.5rem;
+    text-shadow: 0 0 20px rgba(20, 184, 166, 0.5);
 }
 
 .hero-name {
     display: block;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #ffffff;
     margin-bottom: 1rem;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #666;
+    color: #06b6d4;
     font-weight: 400;
     margin-bottom: 1.5rem;
+    text-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
 }
 
 .hero-description {
     font-size: 1.2rem;
-    color: #666;
+    color: #cbd5e1;
     margin-bottom: 2.5rem;
     max-width: 90%;
+    line-height: 1.6;
 }
 
 .hero-buttons {
@@ -216,6 +251,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
+    position: relative;
 }
 
 .image-container {
@@ -223,12 +260,19 @@ a {
     height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 0 3px rgba(20, 184, 166, 0.3),
+        0 0 30px rgba(20, 184, 166, 0.2);
+    transition: all 0.3s ease;
 }
 
 .image-container:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 
+        0 30px 50px rgba(0, 0, 0, 0.4),
+        0 0 0 3px rgba(6, 182, 212, 0.5),
+        0 0 50px rgba(6, 182, 212, 0.3);
 }
 
 .image-container img {
@@ -245,25 +289,30 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    z-index: 10;
 }
 
 .social-link {
     width: 50px;
     height: 50px;
-    background: #fff;
+    background: rgba(15, 23, 42, 0.8);
+    border: 2px solid rgba(20, 184, 166, 0.3);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
-    color: #666;
+    color: #14b8a6;
+    backdrop-filter: blur(10px);
 }
 
 .social-link:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
-    color: #4f46e5;
+    box-shadow: 0 8px 20px rgba(20, 184, 166, 0.4);
+    background: rgba(20, 184, 166, 0.1);
+    border-color: #14b8a6;
+    color: #06b6d4;
 }
 
 /* Buttons */
@@ -282,26 +331,31 @@ a {
 }
 
 .btn-primary {
-    background: #4f46e5;
+    background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
     color: white;
+    box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
+    border: none;
 }
 
 .btn-primary:hover {
-    background: #4338ca;
+    background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 8px 25px rgba(20, 184, 166, 0.4);
 }
 
 .btn-secondary {
-    background: transparent;
-    color: #4f46e5;
-    border: 2px solid #4f46e5;
+    background: rgba(6, 182, 212, 0.1);
+    color: #06b6d4;
+    border: 2px solid #06b6d4;
+    backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-    background: #4f46e5;
-    color: white;
+    background: rgba(6, 182, 212, 0.2);
+    color: #ffffff;
+    border-color: #14b8a6;
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(6, 182, 212, 0.3);
 }
 
 /* Sections */
@@ -354,8 +408,8 @@ section {
 .about-tag {
     padding: 0.5rem 1.2rem;
     background: white;
-    color: #4f46e5;
-    border: 2px solid #e0e7ff;
+    color: #14b8a6;
+    border: 2px solid rgba(20, 184, 166, 0.2);
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 500;
@@ -377,10 +431,10 @@ section {
 }
 
 .stat-number {
-  display: block;
+    display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #4f46e5;
+    color: #14b8a6;
     margin-bottom: 0.5rem;
 }
 
@@ -427,10 +481,10 @@ section {
     top: 1rem;
     width: 16px;
     height: 16px;
-    background: #4f46e5;
+    background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%);
     border-radius: 50%;
     border: 4px solid white;
-    box-shadow: 0 0 0 4px #e5e7eb;
+    box-shadow: 0 0 0 4px #e5e7eb, 0 0 20px rgba(20, 184, 166, 0.3);
     transform: translateX(-50%);
     z-index: 2;
 }
@@ -462,7 +516,7 @@ section {
 }
 
 .timeline-period {
-    color: #4f46e5;
+    color: #14b8a6;
     font-weight: 600;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
@@ -541,16 +595,13 @@ section {
 
 .tag {
     padding: 0.3rem 0.8rem;
-    background: #e0e7ff;
-    color: #4f46e5;
+    background: rgba(20, 184, 166, 0.1);
+    color: #14b8a6;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 500;
+    border: 1px solid rgba(20, 184, 166, 0.2);
 }
-
-
-
-
 
 /* Responsive Design */
 @media (max-width: 768px) {

@@ -2,7 +2,7 @@
 const websiteContent = {
   "personal": {
     "name": "Kagan Han Catan",
-    "title": "Data Scientist & Python Developer",
+    "title": "AI Engineer & Data Scientist",
     "email": "kagan.catan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kaganhancatan/",
     "github": "https://github.com/KaganHanCatan",
@@ -20,7 +20,7 @@ const websiteContent = {
     "tr": {
       "greeting": "Merhaba, Ben",
       "subtitle": "Yapay Zeka Mühendisi & Veri Bilimci",
-      "description": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 2+ yıl deneyimli, merak odaklı bir veri bilimciyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
+              "description": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 4+ yıl deneyimli, merak odaklı bir veri bilimciyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
       "portfolioButton": "Portföyüm",
       "resumeButton": "Özgeçmiş"
     }
@@ -45,7 +45,7 @@ const websiteContent = {
       "subtitle": "Getting to know me",
       "description1": "I'm a passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, SQL, and various ML frameworks.",
       "description2": "Currently working as a Jr. Data Scientist at Peopleoma, I focus on HR analytics, predictive modeling, and creating data-driven solutions that help organizations make informed decisions.",
-      "statYears": "2+",
+      "statYears": "4+",
       "statYearsLabel": "Years Experience",
       "statProjects": "5+",
       "statProjectsLabel": "Projects Completed",
@@ -57,7 +57,7 @@ const websiteContent = {
       "subtitle": "Beni tanıyın",
       "description1": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme konularında uzmanlığa sahip tutkulu bir veri bilimciyim. Yolculuğum İstatistik lisans derecesi ile başladı ve o zamandan beri Python, SQL ve çeşitli ML framework'lerinde güçlü beceriler geliştirdim.",
       "description2": "Şu anda Peopleoma'da Jr. Veri Bilimci olarak çalışıyor, HR analitiği, tahmin modelleme ve organizasyonların bilinçli kararlar almasına yardımcı olan veri odaklı çözümler geliştirmeye odaklanıyorum.",
-      "statYears": "2+",
+      "statYears": "4+",
       "statYearsLabel": "Yıl Deneyim",
       "statProjects": "5+",
       "statProjectsLabel": "Tamamlanan Proje",
