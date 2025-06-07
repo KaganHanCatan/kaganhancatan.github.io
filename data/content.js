@@ -13,7 +13,7 @@ const websiteContent = {
     "en": {
       "greeting": "Hi, I'm",
       "subtitle": "AI Engineer & Data Scientist",
-      "description": "Curiosity-driven data scientist with 4+ years of experience in machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
+      "description": "Curiosity-driven AI Engineer with 4+ years of experience in deep learning, machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
       "portfolioButton": "My Portfolio",
       "resumeButton": "Resume"
     },
@@ -42,20 +42,18 @@ const websiteContent = {
   "about": {
     "en": {
       "title": "About Me",
-      "subtitle": "Getting to know me",
-      "description1": "I'm a passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, SQL, and various ML frameworks.",
-      "description2": "Currently working as a Jr. Data Scientist at Peopleoma, I focus on HR analytics, predictive modeling, and creating data-driven solutions that help organizations make informed decisions.",
-      "statYears": "4+",
+      "description1": "I'm a passionate AI Engineer with expertise in deep learning, machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, Statistical Analysis, and various ML/DL frameworks.",
+      "description2": "Currently working as a AI Engineer at OrbislabAI, I focus on AI Agents, Transformers Architecture , and creating AI-driven solutions that help organizations to be more productive.",
+      "statYears": "5+",
       "statYearsLabel": "Years Experience",
-      "statProjects": "5+",
+      "statProjects": "6+",
       "statProjectsLabel": "Projects Completed",
-      "statCompanies": "1+",
+      "statCompanies": "2+",
       "statCompaniesLabel": "Companies Worked"
     },
     "tr": {
       "title": "Hakkımda",
-      "subtitle": "Beni tanıyın",
-      "description1": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme konularında uzmanlığa sahip tutkulu bir veri bilimciyim. Yolculuğum İstatistik lisans derecesi ile başladı ve o zamandan beri Python, SQL ve çeşitli ML framework'lerinde güçlü beceriler geliştirdim.",
+      "description1": "Derin öğrenme, makine öğrenimi, istatistiksel analiz ve veri görselleştirme konularında uzmanlaşmış tutkulu bir Yapay Zeka Mühendisiyim. Yolculuğum İstatistik lisans eğitimiyle başladı ve o zamandan beri Python, istatistiksel analiz ve çeşitli ML/DL (Makine Öğrenimi/Derin Öğrenme) framework'lerinde güçlü beceriler geliştirdim.",
       "description2": "Şu anda Peopleoma'da Jr. Veri Bilimci olarak çalışıyor, HR analitiği, tahmin modelleme ve organizasyonların bilinçli kararlar almasına yardımcı olan veri odaklı çözümler geliştirmeye odaklanıyorum.",
       "statYears": "4+",
       "statYearsLabel": "Yıl Deneyim",
@@ -87,17 +85,53 @@ const websiteContent = {
         {
           "period": "May 2025 - Present",
           "title": "AI Engineer",
-          "company": "OrbislabAI",
-          "description": "Built strong foundation in statistical theory, probability, and data analysis methods." 
+          "company": "OrbislabsAI",
+          "description": "Agents, agents and agents..."
         },
         {
           "period": "January2024 - May 2025",
           "title": "AI Engineer",
           "company": "Softtech",
-          "description": "Built strong foundation in statistical theory, probability, and data analysis methods." 
+          "description": "Kurumsal verimliliği artırmak amacıyla, şirket içi kod tabanları üzerinde büyük dil modellerini fine-tune yaparak, özelleştirilmiş yapay zeka destekli geliştirme iş akışları sağladım."
         },
         {
           "period": "July 2022 - January2024",
+          "title": "Jr. Veri Bilimci",
+          "company": "Peopleoma",
+          "description": "İK analitik çözümleri, tahmin modelleri ve veri kalitesi modülleri geliştirme. Tahmin sistemleri ve çalışan devir oranı analizi için korelasyon analitiği üzerinde çalışma."
+        },
+        {
+          "period": "April 2022 - July 2022",
+          "title": "Veri Bilimi Stajyeri",
+          "company": "Peopleoma",
+          "description": "Veri analizi, makine öğrenmesi model geliştirme ve İK alanında istatistiksel analiz konularında uygulamalı deneyim kazandım."
+        },
+        {
+          "period": "2018 - 2022",
+          "title": "İstatistik Lisans Derecesi",
+          "company": "Eskişehir Teknik Üniversitesi",
+          "description": "İstatistiksel teori, olasılık ve veri analizi yöntemlerinde güçlü temel oluşturdum."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Deneyim",
+      "subtitle": "Profesyonel yolculuğum",
+      "items": [
+        {
+          "period": "May 2025 - Present",
+          "title": "AI Engineer",
+          "company": "OrbislabsAI",
+          "description": "Agents, agents and agents..."
+        },
+        {
+          "period": "January 2024 - May 2025",
+          "title": "AI Engineer",
+          "company": "Softtech",
+          "description": "Enhanced organizational productivity by fine-tuning large language models on internal codebases, enabling tailored AI-driven development workflows."
+        },
+        {
+          "period": "July 2022 - January 2024",
           "title": "Jr. Data Scientist",
           "company": "Peopleoma",
           "description": "Developing HR analytics solutions, predictive models, and data quality modules. Working on forecasting systems and correlation analytics for employee turnover analysis."
@@ -115,43 +149,18 @@ const websiteContent = {
           "description": "Built strong foundation in statistical theory, probability, and data analysis methods."
         }
       ]
-    },
-    "tr": {
-      "title": "Deneyim",
-      "subtitle": "Profesyonel yolculuğum",
-      "items": [
-        {
-          "period": "2018 - 2022",
-          "title": "İstatistik Lisans Derecesi",
-          "company": "Eskişehir Teknik Üniversitesi",
-          "description": "İstatistiksel teori, olasılık ve veri analizi yöntemlerinde güçlü temel oluşturdum."
-        },
-        {
-          "period": "2022 - 2024",
-          "title": "Jr. Veri Bilimci",
-          "company": "Peopleoma",
-          "description": "İK analitik çözümleri, tahmin modelleri ve veri kalitesi modülleri geliştirme. Tahmin sistemleri ve çalışan devir oranı analizi için korelasyon analitiği üzerinde çalışma."
-        },
-        {
-          "period": "Nisan 2022 - Temmuz 2022",
-          "title": "Veri Bilimi Stajyeri",
-          "company": "Peopleoma",
-          "description": "Veri analizi, makine öğrenmesi model geliştirme ve İK alanında istatistiksel analiz konularında uygulamalı deneyim kazandım."
-        },
-        {
-          "period": "2018 - 2022",
-          "title": "İstatistik Lisans Derecesi",
-          "company": "Eskişehir Teknik Üniversitesi",
-          "description": "İstatistiksel teori, olasılık ve veri analizi yöntemlerinde güçlü temel oluşturdum."
-        }
-      ]
     }
   },
   "projects": {
     "en": {
       "title": "Featured Projects",
-      "subtitle": "Some of my recent work",
       "items": [
+        {
+          "title": "HR Forecasting System",
+          "description": "Developed a predictive algorithm for Human Resources to implement an early warning system that informs companies about expected risks or changes in the next three months.",
+          "tags": ["Python", "Machine Learning", "Forecasting"],
+          "link": "https://github.com/KaganHanCatan/hr-forecasting-system"
+        },
         {
           "title": "HR Forecasting System",
           "description": "Developed a predictive algorithm for Human Resources to implement an early warning system that informs companies about expected risks or changes in the next three months.",
@@ -188,6 +197,12 @@ const websiteContent = {
       "title": "Öne Çıkan Projeler",
       "subtitle": "Son çalışmalarımdan bazıları",
       "items": [
+        {
+          "title": "HR Forecasting System",
+          "description": "Developed a predictive algorithm for Human Resources to implement an early warning system that informs companies about expected risks or changes in the next three months.",
+          "tags": ["Python", "Machine Learning", "Forecasting"],
+          "link": "https://github.com/KaganHanCatan/hr-forecasting-system"
+        },
         {
           "title": "İK Tahmin Sistemi",
           "description": "İnsan Kaynakları için önümüzdeki üç ayda beklenen riskler veya değişiklikler hakkında şirketleri bilgilendiren bir erken uyarı sistemi uygulayan tahmine dayalı algoritma geliştirdim.",
