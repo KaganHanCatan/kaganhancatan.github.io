@@ -1,0 +1,224 @@
+// Website Content - Edit this file to update your website content
+const websiteContent = {
+  "personal": {
+    "name": "Kagan Han Catan",
+    "title": "Data Scientist & Python Developer",
+    "email": "kagan.catan@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaganhancatan/",
+    "github": "https://github.com/KaganHanCatan",
+    "resume": "Assets/Resume.pdf",
+    "profileImage": "Assets/Icons/logo1.png"
+  },
+  "hero": {
+    "en": {
+      "greeting": "Hi, I'm",
+      "subtitle": "AI Engineer & Data Scientist",
+      "description": "Curiosity-driven data scientist with 4+ years of experience in machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
+      "portfolioButton": "My Portfolio",
+      "resumeButton": "Resume"
+    },
+    "tr": {
+      "greeting": "Merhaba, Ben",
+      "subtitle": "Yapay Zeka Mühendisi & Veri Bilimci",
+      "description": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 2+ yıl deneyimli, merak odaklı bir veri bilimciyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
+      "portfolioButton": "Portföyüm",
+      "resumeButton": "Özgeçmiş"
+    }
+  },
+  "navigation": {
+    "en": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects"
+    },
+    "tr": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımda",
+      "experience": "Deneyim",
+      "projects": "Projeler"
+    }
+  },
+  "about": {
+    "en": {
+      "title": "About Me",
+      "subtitle": "Getting to know me",
+      "description1": "I'm a passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, SQL, and various ML frameworks.",
+      "description2": "Currently working as a Jr. Data Scientist at Peopleoma, I focus on HR analytics, predictive modeling, and creating data-driven solutions that help organizations make informed decisions.",
+      "statYears": "2+",
+      "statYearsLabel": "Years Experience",
+      "statProjects": "5+",
+      "statProjectsLabel": "Projects Completed",
+      "statCompanies": "1+",
+      "statCompaniesLabel": "Companies Worked"
+    },
+    "tr": {
+      "title": "Hakkımda",
+      "subtitle": "Beni tanıyın",
+      "description1": "Makine öğrenmesi, istatistiksel analiz ve veri görselleştirme konularında uzmanlığa sahip tutkulu bir veri bilimciyim. Yolculuğum İstatistik lisans derecesi ile başladı ve o zamandan beri Python, SQL ve çeşitli ML framework'lerinde güçlü beceriler geliştirdim.",
+      "description2": "Şu anda Peopleoma'da Jr. Veri Bilimci olarak çalışıyor, HR analitiği, tahmin modelleme ve organizasyonların bilinçli kararlar almasına yardımcı olan veri odaklı çözümler geliştirmeye odaklanıyorum.",
+      "statYears": "2+",
+      "statYearsLabel": "Yıl Deneyim",
+      "statProjects": "5+",
+      "statProjectsLabel": "Tamamlanan Proje",
+      "statCompanies": "1+",
+      "statCompaniesLabel": "Çalışılan Şirket"
+    }
+  },
+  "skills": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Statistical Analysis",
+    "Data Visualization",
+    "Docker",
+    "Git",
+    "MLOps",
+    "Scikit-Learn",
+    "Pandas",
+    "NumPy",
+    "Streamlit"
+  ],
+  "experience": {
+    "en": {
+      "title": "Experience",
+      "subtitle": "My professional journey",
+      "items": [
+        {
+          "period": "May 2025 - Present",
+          "title": "AI Engineer",
+          "company": "OrbislabAI",
+          "description": "Built strong foundation in statistical theory, probability, and data analysis methods." 
+        },
+        {
+          "period": "January2024 - May 2025",
+          "title": "AI Engineer",
+          "company": "Softtech",
+          "description": "Built strong foundation in statistical theory, probability, and data analysis methods." 
+        },
+        {
+          "period": "July 2022 - January2024",
+          "title": "Jr. Data Scientist",
+          "company": "Peopleoma",
+          "description": "Developing HR analytics solutions, predictive models, and data quality modules. Working on forecasting systems and correlation analytics for employee turnover analysis."
+        },
+        {
+          "period": "April 2022 - July 2022",
+          "title": "Data Science Intern",
+          "company": "Peopleoma",
+          "description": "Gained hands-on experience in data analysis, machine learning model development, and statistical analysis in the HR domain."
+        },
+        {
+          "period": "2018 - 2022",
+          "title": "B.S. in Statistics",
+          "company": "Eskisehir Technical University",
+          "description": "Built strong foundation in statistical theory, probability, and data analysis methods."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Deneyim",
+      "subtitle": "Profesyonel yolculuğum",
+      "items": [
+        {
+          "period": "2018 - 2022",
+          "title": "İstatistik Lisans Derecesi",
+          "company": "Eskişehir Teknik Üniversitesi",
+          "description": "İstatistiksel teori, olasılık ve veri analizi yöntemlerinde güçlü temel oluşturdum."
+        },
+        {
+          "period": "2022 - 2024",
+          "title": "Jr. Veri Bilimci",
+          "company": "Peopleoma",
+          "description": "İK analitik çözümleri, tahmin modelleri ve veri kalitesi modülleri geliştirme. Tahmin sistemleri ve çalışan devir oranı analizi için korelasyon analitiği üzerinde çalışma."
+        },
+        {
+          "period": "Nisan 2022 - Temmuz 2022",
+          "title": "Veri Bilimi Stajyeri",
+          "company": "Peopleoma",
+          "description": "Veri analizi, makine öğrenmesi model geliştirme ve İK alanında istatistiksel analiz konularında uygulamalı deneyim kazandım."
+        },
+        {
+          "period": "2018 - 2022",
+          "title": "İstatistik Lisans Derecesi",
+          "company": "Eskişehir Teknik Üniversitesi",
+          "description": "İstatistiksel teori, olasılık ve veri analizi yöntemlerinde güçlü temel oluşturdum."
+        }
+      ]
+    }
+  },
+  "projects": {
+    "en": {
+      "title": "Featured Projects",
+      "subtitle": "Some of my recent work",
+      "items": [
+        {
+          "title": "HR Forecasting System",
+          "description": "Developed a predictive algorithm for Human Resources to implement an early warning system that informs companies about expected risks or changes in the next three months.",
+          "tags": ["Python", "Machine Learning", "Forecasting"],
+          "link": "https://github.com/KaganHanCatan/hr-forecasting-system"
+        },
+        {
+          "title": "Data Quality Module",
+          "description": "Created a comprehensive data quality assessment and monitoring system for the Peopleoma HR analytics platform to ensure data reliability and accuracy.",
+          "tags": ["Python", "Data Quality", "ETL"],
+          "link": "https://github.com/KaganHanCatan/data-quality-module"
+        },
+        {
+          "title": "Correlation Analytics Dashboard",
+          "description": "Built an intuitive correlation dashboard to reveal employee turnover dynamics and help HR teams understand variables associated with employee retention.",
+          "tags": ["Python", "Streamlit", "Data Viz"],
+          "link": "https://github.com/KaganHanCatan/correlation-analytics-dashboard"
+        },
+        {
+          "title": "Statistical Analysis Web App",
+          "description": "Created a web application for statistical analysis and machine learning algorithms with R and Python, featuring data upload, analysis, and visualization capabilities.",
+          "tags": ["R", "Python", "Web App"],
+          "link": "https://github.com/KaganHanCatan/statistical-analysis-webapp"
+        },
+        {
+          "title": "Gender Gap Forecast",
+          "description": "Developed a forecasting model that uses historical data to predict gender diversity metrics for the next three years, helping companies achieve their diversity goals.",
+          "tags": ["Python", "Forecasting", "HR Analytics"],
+          "link": "https://github.com/KaganHanCatan/gender-gap-forecast"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Son çalışmalarımdan bazıları",
+      "items": [
+        {
+          "title": "İK Tahmin Sistemi",
+          "description": "İnsan Kaynakları için önümüzdeki üç ayda beklenen riskler veya değişiklikler hakkında şirketleri bilgilendiren bir erken uyarı sistemi uygulayan tahmine dayalı algoritma geliştirdim.",
+          "tags": ["Python", "Makine Öğrenmesi", "Tahmin"],
+          "link": "https://github.com/KaganHanCatan/hr-forecasting-system"
+        },
+        {
+          "title": "Veri Kalitesi Modülü",
+          "description": "Peopleoma İK analitik platformu için veri güvenilirliği ve doğruluğunu sağlamak amacıyla kapsamlı bir veri kalitesi değerlendirme ve izleme sistemi oluşturdum.",
+          "tags": ["Python", "Veri Kalitesi", "ETL"],
+          "link": "https://github.com/KaganHanCatan/data-quality-module"
+        },
+        {
+          "title": "Korelasyon Analitik Paneli",
+          "description": "Çalışan devir dinamiklerini ortaya çıkaran ve İK ekiplerinin çalışan elde tutmayla ilişkili değişkenleri anlamasına yardımcı olan sezgisel bir korelasyon panosu oluşturdum.",
+          "tags": ["Python", "Streamlit", "Veri Görselleştirme"],
+          "link": "https://github.com/KaganHanCatan/correlation-analytics-dashboard"
+        },
+        {
+          "title": "İstatistiksel Analiz Web Uygulaması",
+          "description": "Veri yükleme, analiz ve görselleştirme özelliklerine sahip R ve Python ile istatistiksel analiz ve makine öğrenmesi algoritmaları için bir web uygulaması oluşturdum.",
+          "tags": ["R", "Python", "Web Uygulaması"],
+          "link": "https://github.com/KaganHanCatan/statistical-analysis-webapp"
+        },
+        {
+          "title": "Cinsiyet Açığı Tahmini",
+          "description": "Şirketlerin çeşitlilik hedeflerine ulaşmasına yardımcı olarak, önümüzdeki üç yıl için cinsiyet çeşitliliği metriklerini tahmin etmek üzere geçmiş verileri kullanan bir tahmin modeli geliştirdim.",
+          "tags": ["Python", "Tahmin", "İK Analitikleri"],
+          "link": "https://github.com/KaganHanCatan/gender-gap-forecast"
+        }
+      ]
+    }
+  }
+}; 
