@@ -12,14 +12,14 @@
     "en": {
       "greeting": "Hi, I'm",
       "subtitle": "AI Engineer & Data Scientist",
-      "description": "Curiosity-driven AI Engineer with 4+ years of experience in deep learning, machine learning, statistical analysis, and data visualization. I transform data into actionable insights.",
+      "description": "AI Engineer with 4+ years of experience in machine learning, deep learning, reinforcement learning and statistical modeling. I design data-driven solutions that deliver real-world impact.",
       "portfolioButton": "My Portfolio",
       "resumeButton": "Resume"
     },
     "tr": {
       "greeting": "Merhaba, Ben",
       "subtitle": "Yapay Zeka Mühendisi & Veri Bilimci",
-      "description": "Derin öğrenme, makine öğrenmesi, istatistiksel analiz ve veri görselleştirme alanlarında 4+ yıl deneyimli, merak odaklı bir yapay zeka mühendisiyim. Veriyi eyleme dönüştürülebilir içgörülere çeviririm.",
+      "description": "Makine öğrenimi, derin öğrenme, pekiştirmeli öğrenme ve istatistiksel modelleme konularında 4+ yıllık deneyime sahip bir Yapay Zekâ Mühendisiyim. Gerçek dünyada etkili, veri odaklı çözümler tasarlıyorum.",
       "portfolioButton": "Portföyüm",
       "resumeButton": "Özgeçmiş"
     }
@@ -43,8 +43,8 @@
   "about": {
     "en": {
       "title": "About Me",
-      "description1": "I'm a passionate AI Engineer with expertise in deep learning, machine learning, statistical analysis, and data visualization. My journey began with a B.S. in Statistics, and I've since developed strong skills in Python, Statistical Analysis, and various ML/DL frameworks.",
-      "description2": "Currently working as an AI Engineer at OrbislabAI, I focus on AI Agents, Transformers Architecture, and creating AI-driven solutions that help organizations be more productive.",
+      "description1": "I'm a passionate AI Engineer with expertise in deep learning, machine learning, data visualization, and statistical modeling. My journey started with a B.S. in Statistics, where I built a strong foundation in data analysis and Python programming. Since then, I've specialized in developing intelligent systems using modern ML/DL frameworks.",
+      "description2": "Currently at OrbislabAI, I focus on AI Agents, Transformer architectures, and building AI-powered solutions that enhance productivity and drive real-world impact.",
       "statYears": "4+",
       "statYearsLabel": "Years Experience",
       "statProjects": "10+",
@@ -54,8 +54,8 @@
     },
     "tr": {
       "title": "Hakkımda",
-      "description1": "Derin öğrenme, makine öğrenimi, istatistiksel analiz ve veri görselleştirme konularında uzmanlaşmış tutkulu bir Yapay Zeka Mühendisiyim. Yolculuğum İstatistik lisans eğitimiyle başladı ve o zamandan beri Python, istatistiksel analiz ve çeşitli ML/DL (Makine Öğrenimi/Derin Öğrenme) framework'lerinde güçlü beceriler geliştirdim.",
-      "description2": "Şu anda OrbislabAI'da Yapay Zeka Mühendisi olarak çalışıyor, AI Agents, Transformers Mimarisi ve organizasyonların daha verimli olmalarına yardımcı olan AI odaklı çözümler geliştirmeye odaklanıyorum.",
+      "description1": "Derin öğrenme, makine öğrenimi, veri görselleştirme ve istatistiksel modelleme konularında uzman, tutkulu bir Yapay Zekâ Mühendisiyim. Yolculuğum, veri analizi ve Python programlama konularında sağlam bir temel edindiğim İstatistik lisans eğitimimle başladı. O zamandan beri modern ML/DL framework'lerini kullanarak akıllı sistemler geliştirme konusunda uzmanlaştım.",
+      "description2": "Şu anda OrbislabAI'de AI Agents, Transformer mimarileri ve üretkenliği artıran, gerçek dünyada somut etki yaratan yapay zekâ çözümleri üzerine çalışıyorum.",
       "statYears": "4+",
       "statYearsLabel": "Yıl Deneyim",
       "statProjects": "10+",
