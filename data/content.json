@@ -227,8 +227,16 @@
       "viewAllButton": "View All Posts on Medium",
       "posts": [
         {
+          "date": "June 24, 2025",
+          "title": "Transformer Mimarisinin Temelleri Multi-Head Attention Mekanizması",
+          "excerpt": "Kelimelerin anlamını ve bağlamını doğru bir şekilde yakalamak, doğal dil işleme dünyasının yaşadığı en büyük zorluklardandır. Özellikle uzun bağımlılıkları yakalama konusunda ciddi sorunlar yaşanmaktaydı. Multi-Head Attention yapısının hayatımıza girmesiyle birlikte, uzun bağımlılıkları yakalama ve kelimelerin bağlamlarını anlama konusunda sorunlar çözülmüş oldu.",
+          "tags": ["AI", "Deep Learning", "Transformer", "Attention", "Multi-Head Attention"],
+          "link": "https://medium.com/@kagan.catan/transformers-mimarisinin-temelleri-multi-head-attention-mekanizması-cea496db8c63",
+          "linkText": "Read on Medium"
+        },
+        {
           "date": "March 15, 2025",
-          "title": "Transformers Mimarisinin Temelleri — Input Embedding & Positional Encoding Katmanları",
+          "title": "Transformers Mimarisinin Temelleri Input Embedding & Positional Encoding Katmanları",
           "excerpt": "Son zamanlarda Transformer mimarisinin teorisi matematisel ifadeleri hakkında araştırma yaptığımda Türkçe olarak kaynak sayısının çok az olduğunu fark ettim ya da ben bulamadım. Bu nedenle Türkçe kaynak olması bakımından Transformer mimarisinin her bölümünü tek tek ele alacak bir yazı serisi yayınlamaya karar verdim.",
           "tags": ["Deep Learning", "Transformers", "Positional Encoding"],
           "link": "https://medium.com/@kagan.catan/transformers-mimarsinin-teorisi-input-embedding-positional-encoding-5833dbca70f7",
@@ -240,6 +248,14 @@
       "title": "Son Blog Yazıları",
       "viewAllButton": "Medium'da Tüm Yazıları Gör",
       "posts": [
+        {
+          "date": "Haziran 24, 2025",
+          "title": "Transformer Mimarisinin Temelleri Multi-Head Attention Mekanizması",
+          "excerpt": "Kelimelerin anlamını ve bağlamını doğru bir şekilde yakalamak, doğal dil işleme dünyasının yaşadığı en büyük zorluklardandır. Özellikle uzun bağımlılıkları yakalama konusunda ciddi sorunlar yaşanmaktaydı. Multi-Head Attention yapısının hayatımıza girmesiyle birlikte, uzun bağımlılıkları yakalama ve kelimelerin bağlamlarını anlama konusunda sorunlar çözülmüş oldu.",
+          "tags": ["AI", "Deep Learning", "Transformer", "Attention", "Multi-Head Attention"],
+          "link": "https://medium.com/@kagan.catan/transformers-mimarisinin-temelleri-multi-head-attention-mekanizması-cea496db8c63",
+          "linkText": "Medium'da Oku"
+        },
         {
           "date": "10 Mart 2025",
           "title": "Transformers Mimarisinin Temelleri — Input Embedding & Positional Encoding Katmanları",
